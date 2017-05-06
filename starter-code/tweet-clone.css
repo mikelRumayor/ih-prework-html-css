@@ -1,0 +1,107 @@
+body {
+	font-family: helvetica;
+	background: rgb(244, 248, 249);
+}
+
+#tweets-pool {
+	background: rgb(255, 255, 255);
+	position: fixed;
+	width: 500px;
+	padding: 40px;
+	border: 2px solid rgb(225, 232, 237);
+	border-radius: 10px;
+	width: 550px;
+}
+
+.tweet-layout {
+	background: rgb(255, 255, 255);
+}
+.tweet-header {
+	
+}
+
+.tweet-header > .profile-photo {
+	float: left;
+}
+
+.tweet-header > .profile-content {
+	float: left;
+	display: inline;
+	margin-left: 25px;
+}
+
+.tweet-header > .profile-content > #user-name {
+	color: rgb(0, 0, 0);
+	vertical-align: top;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.tweet-header > .profile-content > #user-account {
+	color: rgb(104, 109, 129);
+	font-size: 22px;
+	display: block;
+}
+
+.tweet-header > .follow-button {
+	color : rgb(85, 172, 238);
+	display: inline;
+	float: right;
+	padding: 5px;
+	border: 1px solid rgb(85, 172, 238);
+	border-radius: 5px;
+	// width: 100px;
+	padding: 10px 25px
+}
+
+.tweet-header > .follow-button > span {
+	font-size: 25px;
+	font-weight: 700;
+	vertical-align: top;
+}
+
+.tweet-content {
+	padding-top: 70px;
+	display: block;
+}
+
+.tweet-content > #text {
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.tweet-content > #date {
+	color: rgb(101, 116, 127);
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.tweet-footer {
+	color: rgb(105, 120, 130);
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.tweet-footer > ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.tweet-footer > ul > li{
+	margin: 0 30px 0 0;
+	display: inline;
+}
+
+.tweet-footer > .retweet {
+	margin: 0;
+}
+
+.tweet-footer > .favorite {
+	margin: 0 5px;
+}
